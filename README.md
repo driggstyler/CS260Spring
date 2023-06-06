@@ -24,3 +24,32 @@ The Login Page.
 Voting Page in bewteen rounds.
 ![Screenshot (160)](https://github.com/driggstyler/StartUp/assets/99686819/23d043a8-a14a-4f37-86fe-2ffd98cc1b1f)
 * Note that two of these pages should have the outline of a website tab, but I could not find the tool needed to make other outlines, so I went the next best thing.
+# HTML Deliverable
+## Simon deliverable
+Simon HTML was done before anything else, helped to review how to go between Visual Studio Code and github.
+## Github link
+A link is provided on the first page (index.html) to be able to see the github repository containing this project.
+## HTML Pages
+I've gone from 3 to 8 HTML pages to fulfil other functions of this wbesite, the website now includes the following HTML pages:
+- index.html (login screen)
+- home.html
+- leaderboards.html
+- howToPlay.html
+- lobby.html
+- game.html
+- voting.html
+- endgame.html
+## Links between pages
+The are links for the actual website for it's needed functions, and "temporary links" to be able to navigate without needing other services or javascript like the ability to log in.
+## Application textual content
+These include but not limited to username, instructions, word lists, and places to input word answers.
+## Placeholder for third party service calls
+Logging/Registering have placehoder pieces for the third party service call, and temporary links to go through the game without needing other players (peer to peer conections).
+## Application images
+Added Scattergories Logo.
+## Login placeholder, including name display
+The first page is a login/register page, and the username will be displayed at the top of the page once logged in (CaptainKrunch436 is the placeholder username).
+## Database placeholder
+The Leaderboards page has a tamporary table showing the "current" top players.
+## Websocket data placeholder
+The voting page has the voting option placeholders to showcase realtime voting.
