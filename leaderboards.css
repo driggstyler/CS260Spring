@@ -25,6 +25,26 @@ header h1 {
   align-items: center;
   justify-content: center;
  }
+
+ a:link {
+   text-decoration: none;
+   color: black;
+}
+
+a:visited {
+   text-decoration: none;
+   color: black;
+}
+
+a:hover {
+   text-decoration: none;
+   color: #5e86ff;
+}
+
+a:active {
+   text-decoration: none;
+   color: purple;
+}
  
  menu {
     display: flex;

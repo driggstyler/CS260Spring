@@ -26,6 +26,26 @@ header h1 {
   justify-content: center;
  }
 
+ a:link {
+    text-decoration: none;
+    color: black;
+ }
+
+ a:visited {
+    text-decoration: none;
+    color: black;
+ }
+
+ a:hover {
+    text-decoration: none;
+    color: #5e86ff;
+ }
+
+ a:active {
+    text-decoration: none;
+    color: purple;
+ }
+
 footer {
     flex: 0 40px;
     display: flex;
