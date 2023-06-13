@@ -28,11 +28,13 @@ header h1 {
 
 footer {
     flex: 0 40px;
-  display: flex;
-  background: grey;
-  color: white;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: grey;
+    color: white;
+    align-items: center;
+    justify-content: center;
 }
 footer h2 {
     
