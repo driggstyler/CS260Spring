@@ -18,6 +18,15 @@ header {
 header h1 {
     margin: 0px;
 }
+ 
+
+ h1 {
+    text-align: center;
+ }
+ h2 {
+    text-align: center;
+ }
+
  main {
     flex: 1;
   display: flex;
@@ -26,12 +35,17 @@ header h1 {
   justify-content: center;
  }
 
- h1 {
-    text-align: center;
- }
- h2 {
-    text-align: center;
- }
+.cardboardPiece {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.paperInsert {
+    display: flex;
+    flex-direction: row;
+}
+
 
 footer {
     flex: 0 40px;
