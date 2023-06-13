@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+header {
+    flex: 0 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    background: red;
+    color: white;
+    
+}
+
+header h1 {
+    margin: 0px;
+}
+ main {
+    flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+
+ h1 {
+    text-align: center;
+ }
+ h2 {
+    text-align: center;
+ }
+
+footer {
+    flex: 0 40px;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: grey;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+footer h2 {
+    
+    font-size: 1.5em;
+    
+}
