@@ -6,6 +6,13 @@
         <title>Scattergories Lobby HTML</title>
         <link rel="icon" href="favicon.ico" />
         <link rel="stylesheet" href="lobby.css">
+
+        <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     </head>
     <body>
         <header>
@@ -13,7 +20,7 @@
                 width=auto
                 height="100px"/>
             <h1>Scattergories</h1>
-            <p>User: CaptainKrunch436</p>
+            <p id="displayName"></p>
         </header>
        <main>
             <h2>Lobby</h2>
@@ -33,7 +40,7 @@
                 </tr>
             </table>
             <p>You are the host! Click "Start" when you are ready!</p>
-            <div><input type = "submit" id="startButton" value="Start"/></div>
+            <div><button class="startButton" onclick="startGame()">Start</button></div>
             <a href="game.html">Temporary link to the game page</a>
        </main>
        <footer>
@@ -41,7 +48,11 @@
         <p><b>Disclaimer: </b>This website is only meant for educational purposes in building websites, the original game Scattergories and it's 
             related properties are not owned or created by the makers of this website.</p>
         <p>Click <a href = "https://github.com/driggstyler/StartUp">here</a> to get to the github repository for scattergories.click.</p>
-    </footer>
+        </footer>
+        <script src="lobby.js"></script>
+        <script>
+            document.getElementById('displayName').innerHTML= localStorage.getItem('username');
+        </script>
     </body>
     
 </html>

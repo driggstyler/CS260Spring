@@ -6,6 +6,13 @@
         <title>Scattergories Home HTML</title>
         <link rel="icon" href="favicon.ico" />
         <link rel="stylesheet" href="howToPlay.css">
+
+        <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
     </head>
     <body>
         <header>
@@ -13,7 +20,7 @@
             width=auto
             height="100px"/>
             <h1>Scattergories</h1>
-            <p>User: CaptainKrunch436</p>
+            <p id="displayName"></p>
             <nav>
                 <menu>
                     <li><a href="home.html">Home</a></li>
@@ -59,5 +66,9 @@
                 related properties are not owned or created by the makers of this website.</p>
             <p>Click <a href = "https://github.com/driggstyler/StartUp">here</a> to get to the github repository for scattergories.click.</p>
         </footer>
+        <!--Spot for leaderboards.js should it be needed.-->
+        <script>
+            document.getElementById('displayName').innerHTML= localStorage.getItem('username');
+        </script>
     </body>
 </html>
