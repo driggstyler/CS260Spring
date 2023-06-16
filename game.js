@@ -1,5 +1,5 @@
-const startingMinutes = 1;
-let time = startingMinutes * 30;
+const startingMinutes = 3;
+let time = startingMinutes * 60;
 const countdownEl = document.getElementById("countdown");
 setInterval(updateCountdown, 1000);
 function updateCountdown() {
@@ -25,7 +25,8 @@ function updateCountdown() {
         //Putting locally stored items into an array
         let userWords = [curritem1.value, curritem2.value, curritem3.value, curritem4.value, curritem5.value, curritem6.value,
             curritem7.value, curritem8.value, curritem9.value, curritem10.value, curritem11.value, curritem12.value];
-        localStorage.setItem("usersWords", userWords);
+        let jsonUserWords = JSON.stringify(userWords);
+        localStorage.setItem("usersWords", jsonUserWords);
 
 
         window.location.href="voting.html";

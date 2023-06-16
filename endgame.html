@@ -31,8 +31,10 @@
             </nav>
         </header>
         <main>
-            <h1>Burgerman37 is the winner!</h1>
-            <h2>You placed 3rd.</h2>
+            <h1 id="winner"></h1>
+            <h1>is the winner!</h1>
+            <h2>You placed</h2>
+            <h2 id="place"></h2>
         </main>
         <footer>
             <!--Required link to repository-->
@@ -41,6 +43,7 @@
             <p>Click <a href = "https://github.com/driggstyler/StartUp">here</a> to get to the github repository for scattergories.click.</p>
         </footer>
         <!--Spot for endgame.js should it be needed.-->
+        <script src="endgame.js"></script>
         <script>
             document.getElementById('displayName').innerHTML= localStorage.getItem('username');
         </script>

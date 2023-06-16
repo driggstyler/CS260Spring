@@ -25,11 +25,14 @@
         <main>
             <div class="votingBox">
                 <h2><p>Things that go fast</p></h2>
-                <p>Burgerman37 typed</p>
-                <p><i>Sonic</i></p>
+                <p id="currUsername"></p>
+                <p>has typed</p>
+                <p id="usersWord"></p>
+                <p>for</p>
+                <p id="currItem"></p>
                 <p>Does this count?</p>
-                <input type="submit" id="voteYes" value="Yes">
-                <input type="submit" id="voteNo" value="No">
+                <button class="yesButton" onclick="yesButton()">Yes</button>
+                <button class="noButton" onclick="noButton()">No</button>
             </div>
             <a href="game.html">Temporary Link back to game page.</a>
             <a href="endgame.html">Temporary Link to endgame page.</a>
@@ -40,7 +43,7 @@
                 related properties are not owned or created by the makers of this website.</p>
             <p>Click <a href = "https://github.com/driggstyler/StartUp">here</a> to get to the github repository for scattergories.click.</p>
         </footer>
-        <!--Spot for voting.js should it be needed.-->
+        <script src="voting.js"></script>
         <script>
             document.getElementById('displayName').innerHTML= localStorage.getItem('username');
         </script>
