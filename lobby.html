@@ -30,7 +30,7 @@
                     <th>Player Name</th>
                 </tr>
                 <tr>
-                    <td>WordMan37</td>
+                    <td id="displayName2"></td>
                 </tr>
                 <tr>
                     <td>BaconIsGood22</td>
@@ -52,6 +52,7 @@
         <script src="lobby.js"></script>
         <script>
             document.getElementById('displayName').innerHTML= localStorage.getItem('username');
+            document.getElementById('displayName2').innerHTML= localStorage.getItem('username');
         </script>
     </body>
     

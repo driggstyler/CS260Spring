@@ -24,8 +24,8 @@
         </header>
         <main>
             <div class="middleHeader">
-                <div><h2>The letter is: W</h2></div>
-                <div><h2>Time left: 0:45</h2></div>
+                <div><h2>The letter is: <div id ="randomLetter"></div></h2></div>
+                <div><h2>Time left: <div id="countdown"></div></h2></div>
             </div>
             <div class="cardboardPiece">    
                 <div class="itemsList">
@@ -49,52 +49,52 @@
                     <div class="paperSlip">
                         <div><p>Round One</p></div>
                         <div>
-                            <input type = "text" id="item1" placeholder="List Item One"/>
-                            <input type = "text" id="item2" placeholder="List Item Two"/>
-                            <input type = "text" id="item3" placeholder="List Item Three"/>
-                            <input type = "text" id="item4" placeholder="List Item Four"/>
-                            <input type = "text" id="item5" placeholder="List Item Five"/>
-                            <input type = "text" id="item6" placeholder="List Item Six"/>
-                            <input type = "text" id="item7" placeholder="List Item Seven"/>
-                            <input type = "text" id="item8" placeholder="List Item Eight"/>
-                            <input type = "text" id="item9" placeholder="List Item Nine"/>
-                            <input type = "text" id="item10" placeholder="List Item Ten"/>
-                            <input type = "text" id="item11" placeholder="List Item Eleven"/>
-                            <input type = "text" id="item12" placeholder="List Item Twelve"/>
+                            <input type = "text" id="r1item1" placeholder="List Item One"/>
+                            <input type = "text" id="r1item2" placeholder="List Item Two"/>
+                            <input type = "text" id="r1item3" placeholder="List Item Three"/>
+                            <input type = "text" id="r1item4" placeholder="List Item Four"/>
+                            <input type = "text" id="r1item5" placeholder="List Item Five"/>
+                            <input type = "text" id="r1item6" placeholder="List Item Six"/>
+                            <input type = "text" id="r1item7" placeholder="List Item Seven"/>
+                            <input type = "text" id="r1item8" placeholder="List Item Eight"/>
+                            <input type = "text" id="r1item9" placeholder="List Item Nine"/>
+                            <input type = "text" id="r1item10" placeholder="List Item Ten"/>
+                            <input type = "text" id="r1item11" placeholder="List Item Eleven"/>
+                            <input type = "text" id="r1item12" placeholder="List Item Twelve"/>
                         </div>
                     </div>
                     <div class="paperSlip">
                         <div><p>Round Two</p></div>
                         <div>
-                            <input type = "text" id="item1" placeholder="List Item One"/>
-                            <input type = "text" id="item2" placeholder="List Item Two"/>
-                            <input type = "text" id="item3" placeholder="List Item Three"/>
-                            <input type = "text" id="item4" placeholder="List Item Four"/>
-                            <input type = "text" id="item5" placeholder="List Item Five"/>
-                            <input type = "text" id="item6" placeholder="List Item Six"/>
-                            <input type = "text" id="item7" placeholder="List Item Seven"/>
-                            <input type = "text" id="item8" placeholder="List Item Eight"/>
-                            <input type = "text" id="item9" placeholder="List Item Nine"/>
-                            <input type = "text" id="item10" placeholder="List Item Ten"/>
-                            <input type = "text" id="item11" placeholder="List Item Eleven"/>
-                            <input type = "text" id="item12" placeholder="List Item Twelve"/>
+                            <input type = "text" id="r2item1" placeholder="List Item One"/>
+                            <input type = "text" id="r2item2" placeholder="List Item Two"/>
+                            <input type = "text" id="r2item3" placeholder="List Item Three"/>
+                            <input type = "text" id="r2item4" placeholder="List Item Four"/>
+                            <input type = "text" id="r2item5" placeholder="List Item Five"/>
+                            <input type = "text" id="r2item6" placeholder="List Item Six"/>
+                            <input type = "text" id="r2item7" placeholder="List Item Seven"/>
+                            <input type = "text" id="r2item8" placeholder="List Item Eight"/>
+                            <input type = "text" id="r2item9" placeholder="List Item Nine"/>
+                            <input type = "text" id="r2item10" placeholder="List Item Ten"/>
+                            <input type = "text" id="r2item11" placeholder="List Item Eleven"/>
+                            <input type = "text" id="r2item12" placeholder="List Item Twelve"/>
                         </div>
                     </div>
                     <div class="paperSlip">
                         <div><p>Round Three</p></div>
                         <div>
-                            <input type = "text" id="item1" placeholder="List Item One"/>
-                            <input type = "text" id="item2" placeholder="List Item Two"/>
-                            <input type = "text" id="item3" placeholder="List Item Three"/>
-                            <input type = "text" id="item4" placeholder="List Item Four"/>
-                            <input type = "text" id="item5" placeholder="List Item Five"/>
-                            <input type = "text" id="item6" placeholder="List Item Six"/>
-                            <input type = "text" id="item7" placeholder="List Item Seven"/>
-                            <input type = "text" id="item8" placeholder="List Item Eight"/>
-                            <input type = "text" id="item9" placeholder="List Item Nine"/>
-                            <input type = "text" id="item10" placeholder="List Item Ten"/>
-                            <input type = "text" id="item11" placeholder="List Item Eleven"/>
-                            <input type = "text" id="item12" placeholder="List Item Twelve"/>
+                            <input type = "text" id="r3item1" placeholder="List Item One"/>
+                            <input type = "text" id="r3item2" placeholder="List Item Two"/>
+                            <input type = "text" id="r3item3" placeholder="List Item Three"/>
+                            <input type = "text" id="r3item4" placeholder="List Item Four"/>
+                            <input type = "text" id="r3item5" placeholder="List Item Five"/>
+                            <input type = "text" id="r3item6" placeholder="List Item Six"/>
+                            <input type = "text" id="r3item7" placeholder="List Item Seven"/>
+                            <input type = "text" id="r3item8" placeholder="List Item Eight"/>
+                            <input type = "text" id="r3item9" placeholder="List Item Nine"/>
+                            <input type = "text" id="r3item10" placeholder="List Item Ten"/>
+                            <input type = "text" id="r3item11" placeholder="List Item Eleven"/>
+                            <input type = "text" id="r3item12" placeholder="List Item Twelve"/>
                         </div>
                     </div>
                 </div>
@@ -107,9 +107,12 @@
                 related properties are not owned or created by the makers of this website.</p>
             <p>Click <a href = "https://github.com/driggstyler/StartUp">here</a> to get to the github repository for scattergories.click.</p>
         </footer>
-        <!--Spot for game.js should it be needed.-->
+        <script src="game.js"></script>
         <script>
             document.getElementById('displayName').innerHTML= localStorage.getItem('username');
+            const alphabet = "abcdefghijklmnopqrstuvwxyz";
+            const randomCharacter = alphabet[Math.floor(Math.random() * alphabet.length)];
+            document.getElementById('randomLetter').innerHTML= randomCharacter;
         </script>
     </body>
 </html>
