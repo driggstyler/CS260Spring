@@ -11,6 +11,7 @@ function yesButton() {
     document.getElementById('usersWord').innerHTML = myArray.pop;
     document.getAnimations('currItem').innerHTML = "Things that are round";
     if (myArray.length === 0) {
+        localStorage.setItem("usersScore", points);
         window.location.ref = "endgame.html"
     }
 }
@@ -19,6 +20,7 @@ function noButton() {
     document.getElementById('usersWord').innerHTML = myArray.pop;
     document.getAnimations('currItem').innerHTML = "Things that are round";
     if (myArray.length === 0) {
+        localStorage.setItem("usersScore", points);
         window.location.ref = "endgame.html"
     }
 }
