@@ -2,25 +2,37 @@ let points = 0;
 document.getElementById('currUsername').innerHTML= localStorage.getItem('username');
 
 let myArray = ['1','2','3','4','5','6','7','8','9','10','11','12'];
+let wordArray = JSON.parse(localStorage.getItem('usersWords'));
+let itemArray = ["Things That Float","Famous Actor","Fast Food Chain","Movie Title","Book Author","Athletic Sport",
+"Crime","Board Game","Car Brand","University","Mountain","Superhero"]
 
-document.getElementById('usersWord').innerHTML = myArray.pop;
-document.getElementById('currItem').innerHTML = "Things that are round";
+const newText = document.createTextNode(wordArray.pop());
+document.getElementById('usersWord').replaceChildren(newText);
+const newItem = document.createTextNode(itemArray.pop());
+document.getElementById('currItem').replaceChildren(newItem);
 
 function yesButton() {
     points++;
-    document.getElementById('usersWord').innerHTML = myArray.pop;
-    document.getAnimations('currItem').innerHTML = "Things that are round";
-    if (myArray.length === 0) {
+    if (wordArray.length === 0) {
         localStorage.setItem("usersScore", points);
-        window.location.ref = "endgame.html"
+        window.location.href = "endgame.html";
+        
     }
+    const newText = document.createTextNode(wordArray.pop());
+    document.getElementById('usersWord').replaceChildren(newText);
+    const newItem = document.createTextNode(itemArray.pop());
+    document.getElementById('currItem').replaceChildren(newItem);
+    
 }
 
 function noButton() {
-    document.getElementById('usersWord').innerHTML = myArray.pop;
-    document.getAnimations('currItem').innerHTML = "Things that are round";
-    if (myArray.length === 0) {
+    if (wordArray.length === 0) {
         localStorage.setItem("usersScore", points);
-        window.location.ref = "endgame.html"
+        window.location.href = "endgame.html";
     }
+    const newText = document.createTextNode(wordArray.pop());
+    document.getElementById('usersWord').replaceChildren(newText);
+    const newItem = document.createTextNode(itemArray.pop());
+    document.getElementById('currItem').replaceChildren(newItem);
+    
 }

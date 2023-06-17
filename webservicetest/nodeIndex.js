@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.listen(8081);
+app.listen(8080);
 
 const http = require('http');
 const server = http.createServer(function (req, res) {
@@ -10,6 +10,10 @@ const server = http.createServer(function (req, res) {
   res.end();
 });
 
-server.listen(8080, () => {
+server.listen(8081, () => {
   console.log(`Web service listening on port 8080`);
+});
+
+app.get('/store/:storeName', (req, res, next) => {
+  res.send({name: req.params.storeName});
 });
