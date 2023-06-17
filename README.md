@@ -53,3 +53,26 @@ The first page is a login/register page, and the username will be displayed at t
 The Leaderboards page has a tamporary table showing the "current" top players.
 ## Websocket data placeholder
 The voting page has the voting option placeholders to showcase realtime voting.
+# CSS Deliverable
+## Simon CSS
+Deployed and working
+## Link to my repository
+Still there from HTML deliverable.
+## Header, Footer, And Main Content Body
+### Header details
+Red background with Scaterrgories logo and on some pages a menu (hyperlinks are not default color).
+### Main Content Body
+White background with Black text and matching black borders for the boxes containing the text. Hyperlinks are not default color and turn red when hovered over. Text is centered on the page along with text input elements.
+### Footer
+Grey background with disclaimer and link to repository. (hyperlinks are not default color).
+### Navigation elements
+Menu in header piece have hyperlinks that are not the default color, and are centered in a row below the Title of the page.
+Other links like those in the homepage and the temporary ones to navigate triggered pages are patterned like the menu links: black text that turns red when hovered over.
+### Responsive window sizing
+Pages keep elements centered in various sized windows.
+### Application Elements, Text Content, And Images
+Elements are often in a black border box and are arranged to align center with header texts. 
+he text is black and hyperlinks turn red when hovered over. Text is also centered in the appropriate places and text input fields line up where they should.
+The Scattergories logo image is present at the top of every page.
+### Git commits
+More git commmits were used to show progress.
