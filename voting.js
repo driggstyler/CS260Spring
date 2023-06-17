@@ -4,7 +4,7 @@ document.getElementById('currUsername').innerHTML= localStorage.getItem('usernam
 let myArray = ['1','2','3','4','5','6','7','8','9','10','11','12'];
 
 document.getElementById('usersWord').innerHTML = myArray.pop;
-document.getAnimations('currItem').innerHTML = "Things that are round";
+document.getElementById('currItem').innerHTML = "Things that are round";
 
 function yesButton() {
     points++;
